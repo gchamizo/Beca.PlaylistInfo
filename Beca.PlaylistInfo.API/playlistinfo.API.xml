@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Beca.PlaylistInfo.API</name>
+    </assembly>
+    <members>
+        <member name="M:Beca.PlaylistInfo.API.Controllers.PlaylistsController.GetPlaylistById(System.Int32,System.Boolean)">
+            <summary>
+            Obtener una lista por su id
+            </summary>
+            <param name="id">El id de la playlist</param>
+            <param name="includeSongs">Incluir o no sus canciones</param>
+            <returns>IActionResult</returns>
+            <response code="200">Devuelve la lista pedida</response>
+        </member>
+        <member name="T:Beca.PlaylistInfo.API.Models.PlaylistDto">
+            <summary>
+            Una DTO con canciones
+            </summary>
+        </member>
+        <member name="P:Beca.PlaylistInfo.API.Models.PlaylistDto.Id">
+            <summary>
+            El id de la playlist
+            </summary>
+        </member>
+        <member name="P:Beca.PlaylistInfo.API.Models.PlaylistDto.Title">
+            <summary>
+            El título de la playlist
+            </summary>
+        </member>
+        <member name="P:Beca.PlaylistInfo.API.Models.PlaylistDto.Description">
+            <summary>
+            La descripción de la playlist
+            </summary>
+        </member>
+        <member name="P:Beca.PlaylistInfo.API.Models.PlaylistDto.Songs">
+            <summary>
+            Colección de canciones de la playlist
+            </summary>
+        </member>
+        <member name="T:Beca.PlaylistInfo.API.Models.SongDto">
+            <summary>
+            Una DTO de canciones
+            </summary>
+        </member>
+        <member name="P:Beca.PlaylistInfo.API.Models.SongDto.Id">
+            <summary>
+            El id de la canción
+            </summary>
+        </member>
+        <member name="P:Beca.PlaylistInfo.API.Models.SongDto.Name">
+            <summary>
+            El nombre de la canción
+            </summary>
+        </member>
+        <member name="P:Beca.PlaylistInfo.API.Models.SongDto.Artist">
+            <summary>
+            Los artistas que cantan
+            </summary>
+        </member>
+        <member name="T:Beca.PlaylistInfo.API.Models.SongForCreationDto">
+            <summary>
+            Un DTO para crear canciones
+            </summary>
+        </member>
+        <member name="T:Beca.PlaylistInfo.API.Models.SongForUpdateDto">
+            <summary>
+            Un DTO para modificar canciones
+            </summary>
+        </member>
+        <member name="T:Beca.Playlist.API.Models.PlaylistWithoutSongsDto">
+            <summary>
+            Una DTO sin canciones
+            </summary>
+        </member>
+        <member name="P:Beca.Playlist.API.Models.PlaylistWithoutSongsDto.Id">
+            <summary>
+            La id de la playlist
+            </summary>
+        </member>
+        <member name="P:Beca.Playlist.API.Models.PlaylistWithoutSongsDto.Title">
+            <summary>
+            El título de la playlist
+            </summary>
+        </member>
+        <member name="P:Beca.Playlist.API.Models.PlaylistWithoutSongsDto.Description">
+            <summary>
+            La descripción de la playlist
+            </summary>
+        </member>
+    </members>
+</doc>
