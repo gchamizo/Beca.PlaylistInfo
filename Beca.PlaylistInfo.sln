@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beca.PlaylistInfo.API", "Beca.PlaylistInfo.API\Beca.PlaylistInfo.API.csproj", "{C33D0FB7-A8B3-4D8D-B731-56A5949CE655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beca.PlaylistInfo.API", "Beca.PlaylistInfo.API\Beca.PlaylistInfo.API.csproj", "{C33D0FB7-A8B3-4D8D-B731-56A5949CE655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistTest", "PlaylistTest\PlaylistTest.csproj", "{CFC46D73-A69F-4F28-906E-6F01519DFC03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C33D0FB7-A8B3-4D8D-B731-56A5949CE655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C33D0FB7-A8B3-4D8D-B731-56A5949CE655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C33D0FB7-A8B3-4D8D-B731-56A5949CE655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC46D73-A69F-4F28-906E-6F01519DFC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC46D73-A69F-4F28-906E-6F01519DFC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC46D73-A69F-4F28-906E-6F01519DFC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC46D73-A69F-4F28-906E-6F01519DFC03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

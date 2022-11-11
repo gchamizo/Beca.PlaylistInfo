@@ -20,6 +20,7 @@ namespace Beca.PlaylistInfo.API.Entities
         [ForeignKey("PlaylistId")]
         public PlaylistE? Playlist { get; set; }
         public int PlaylistId { get; set; }
+        public bool IsNew { get; set; }
 
         public Song(string name)
         {
